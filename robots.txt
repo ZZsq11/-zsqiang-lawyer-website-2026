@@ -1,0 +1,15 @@
+# robots.txt - 告诉搜索引擎哪些页面可以抓取
+# 网站: zsqiang-law.com
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap 位置（上线后把域名替换为实际域名）
+Sitemap: https://zsqiang-law.com/sitemap.xml
+
+# 百度蜘蛛特殊设置
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
